@@ -1,5 +1,3 @@
-/* a minimalist set of CSS resets */
-
 /* default to border-box */
 html {
     box-sizing: border-box;
@@ -26,34 +24,33 @@ html {
   }
   /* Add a black background color to the top navigation */
 .topbar {
-  background-color: (26, 114, 26);
+  background-color: rgb(26, 114, 26);
   color: beige;
   overflow: hidden;
-  font-size:16;
+  font-size:16px;
   padding:0;
   top:0;
   left:0;
-  width:100;
+  width:100%;
 }
 .bottombar{
-  background-color:(148, 161, 172);
+  background-color:rgb(148, 161, 172);
   overflow: hidden;
-  margin:0;
+  margin:0%;
   bottom: 0;
   left:0;
-  width: 100;
-  font-size: 8;
+  width: 100%;
 }
 .content{
   overflow:hidden;
-  padding:10;
+  padding:10px;
   background-color:aliceblue;
   color:black
 }
 /* Style the tab */
 .tab {
   overflow: hidden;
-  border: 1 solid #ccc;
+  border: 1px solid #ccc;
   background-color: #f1f1f1;
 }
 
@@ -64,9 +61,9 @@ html {
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14 16;
-  transition: 0.3;
-  font-size: 17;
+  padding: 14px 16px;
+  transition: 0.3s;
+  font-size: 17px;
 }
 
 /* Change background color of buttons on hover */
@@ -82,7 +79,7 @@ html {
 /* Style the tab content */
 .tabcontent {
   display: none;
-  padding: 6 12;
-  border: 1 solid #ccc;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
   border-top: none;
 }
