@@ -43,12 +43,6 @@ html {
   left:0;
   width: 100%;
 }
-.content{
-  overflow:hidden;
-  padding:10px;
-  background-color:aliceblue;
-  color:black
-}
 /* Style the tab */
 .tab {
   overflow: hidden;
