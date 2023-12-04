@@ -24,7 +24,7 @@ html {
   }
   /* Add a black background color to the top navigation */
 .topbar {
-  background-color: rgb(26, 114, 26);
+  background-color:(26, 114, 26);
   color: beige;
   overflow: hidden;
   font-size:16px;
@@ -34,7 +34,7 @@ html {
   width:100%;
 }
 .bottombar{
-  background-color:rgb(148, 161, 172);
+  background-color:(148, 161, 172);
   overflow: hidden;
   margin:0%;
   bottom: 0;
