@@ -42,7 +42,7 @@ html {
   bottom: 0;
   left:0;
   width: 100%;
-  size: 10;
+  font-size: 8;
 }
 .content{
   overflow:hidden;
